@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('1st Build') {
       steps {
-        sh 'ng build'
+        sh 'echo "Hello"'
       }
     }
 
